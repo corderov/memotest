@@ -8,6 +8,6 @@ main {
 
 @media (max-width: 768px) {
   main {
-    grid-template-columns: repeat(4, 180px);
+    grid-template-columns: repeat(3, 100px);
   }
 }

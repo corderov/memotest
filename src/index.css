@@ -21,8 +21,8 @@
 body {
   margin: auto;
   display: flex;
+  padding: 12px;
   place-items: center;
-  min-width: 800px;
   min-height: 100vh;
 }
 
@@ -37,4 +37,8 @@ img {
   height: 200px;
 }
 
-
+@media (max-width: 768px) {
+  img {
+    height: 100px
+  }
+}
