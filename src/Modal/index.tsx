@@ -18,7 +18,7 @@ export default function Modal(props: ModalProps): ReactElement {
         </div>
         <div className="body">
           <p>{body}</p>
-          {image && <img src={image} />}
+          {image && <img className="modalImage" src={image} />}
         </div>
         <div className="footer">
           <button onClick={onConfirm}>{buttonTitle}</button>

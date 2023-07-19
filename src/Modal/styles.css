@@ -6,10 +6,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 12px;
 }
 
 .modalContainer {
-  width: 500px;
+  width: 400px;
   height: 500px;
   border-radius: 12px;
   background-color: #ffffff;
@@ -60,5 +64,9 @@
 .modalContainer .footer button:hover{
   background-color: rgb(157, 75, 189);
 
+}
+
+.modalImage {
+  height: 200px;
 }
 
